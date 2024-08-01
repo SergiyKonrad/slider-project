@@ -5,15 +5,15 @@ This project contains two versions of a JavaScript slider:
 1. **Prototypes and Inheritance Version** (prototypes-version branch)
 2. **Classes Version** (classes-version branch)
 
-## Prototypes and Inheritance Version
-
-- Directory: prototypes-version/
-- Files: index.html, slider.js, style.css
-
 ## Classes Version
 
 - Directory: classes-version/
 - Files: index.html, sliderClass.js, style.css
+
+## Prototypes and Inheritance Version
+
+- Directory: prototypes-version/
+- Files: index.html, slider.js, style.css
 
 ## Instructions
 

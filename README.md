@@ -15,13 +15,16 @@ This project contains two versions of a JavaScript slider:
 - Directory: classes-version/
 - Files: index.html, sliderClass.js, style.css
 
+## Instructions
+
+- To use the prototypes and inheritance version, switch to the prototypes-version branch in GitHub or prototypes-version remote branch in VS Code.
+- To use the classes version, switch to the classes-version branch in GitHub or classess-version remote branch in VS Code.
+
+https://github.com/SergiyKonrad/slider-project
+
 ## Configuration
 
 Both versions of the slider support the following configuration options:
+
 - autoSlideDuration: The duration (in milliseconds) between automatic slide transitions.
 - showIndicators: Boolean indicating whether to show slide indicators.
-
-## Instructions
-
-- To use the prototypes and inheritance version, switch to the prototypes-version branch.
-- To use the classes version, switch to the classes-version branch.

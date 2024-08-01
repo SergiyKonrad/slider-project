@@ -5,6 +5,13 @@ This project contains two versions of a JavaScript slider:
 1. **Prototypes and Inheritance Version** (prototypes-version branch)
 2. **Classes Version** (classes-version branch)
 
+## Instructions
+
+- To use the prototypes and inheritance version, switch to the prototypes-version branch in GitHub or prototypes-version branch in VS Code.
+- To use the classes version, switch to the classes-version branch in GitHub or classess-version branch in VS Code.
+
+https://github.com/SergiyKonrad/slider-project
+
 ## Prototypes and Inheritance Version
 
 - Directory: prototypes-version/
@@ -14,13 +21,6 @@ This project contains two versions of a JavaScript slider:
 
 - Directory: classes-version/
 - Files: index.html, sliderClass.js, style.css
-
-## Instructions
-
-- To use the prototypes and inheritance version, switch to the prototypes-version branch in GitHub or prototypes-version branch in VS Code.
-- To use the classes version, switch to the classes-version branch in GitHub or classess-version branch in VS Code.
-
-https://github.com/SergiyKonrad/slider-project
 
 ## Configuration
 

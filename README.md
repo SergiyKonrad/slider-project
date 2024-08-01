@@ -1,4 +1,4 @@
-# My Slider Project
+# JS Slider Project
 
 This project contains two versions of a JavaScript slider:
 
@@ -7,7 +7,8 @@ This project contains two versions of a JavaScript slider:
 
 ## Instructions
 
-- To use the prototypes and inheritance version, switch to the prototypes-version branch in GitHub or prototypes-version branch in VS Code.
+- To use the prototypes and inheritance version, switch to the prototypes-version branch in GitHub or prototypes-version branch in VS Code (e.g. by clicking on the Source Control icon in the left bottom corner).
+
 - To use the classes version, switch to the classes-version branch in GitHub or classess-version branch in VS Code.
 
 https://github.com/SergiyKonrad/slider-project

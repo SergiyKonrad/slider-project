@@ -13,7 +13,7 @@ class Slider {
     this.touchStartX = null
     this.mouseStartX = null
 
-    this.init()
+    // this.init()
   }
 
   init() {
@@ -112,6 +112,7 @@ class Slider {
       pauseResumeButton.textContent = 'Resume'
     }
     this.isPaused = !this.isPaused
+    // this.isPaused = this.isPaused === true ? false : true;
   }
 
   handleTouchStart(event) {
@@ -179,7 +180,11 @@ class Slider {
   }
 }
 
-// Initialize the all the slider
+// Initialize the slider instance and call init
 document.addEventListener('DOMContentLoaded', () => {
-  new Slider('slider', { autoSlideDuration: 3000, showIndicators: true })
+  const sliderInstance = new Slider('slider', {
+    autoSlideDuration: 3000,
+    showIndicators: true,
+  })
+  sliderInstance.init()
 })

@@ -1,5 +1,3 @@
-// slider.js
-
 function Slider(sliderId, config) {
   this.slider = document.getElementById(sliderId)
   this.slides = this.slider.querySelectorAll('.slide')
@@ -11,7 +9,7 @@ function Slider(sliderId, config) {
     config.showIndicators !== undefined ? config.showIndicators : true
   this.isPaused = false
 
-  this.init()
+  // this.init()
 }
 
 Slider.prototype.init = function () {
@@ -180,7 +178,11 @@ Slider.prototype.handleMouseMove = function (event) {
   }
 }
 
-// Initialize the slider
+// Initialize the slider separately
 document.addEventListener('DOMContentLoaded', function () {
-  new Slider('slider', { autoSlideDuration: 3000, showIndicators: true })
+  const sliderInstance = new Slider('slider', {
+    autoSlideDuration: 3000,
+    showIndicators: true,
+  })
+  sliderInstance.init()
 })
